@@ -1,0 +1,10 @@
+discord.py
+python-dotenv
+Pillow
+requests
+numpy
+torch
+torchvision
+ultralytics
+pandas
+supabase
