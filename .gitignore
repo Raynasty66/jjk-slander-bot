@@ -1,5 +1,6 @@
 .env
-weights/
+weights/*.ckpt
+weights/*.pt
 __pycache__/
 *.pyc
 *.pyo

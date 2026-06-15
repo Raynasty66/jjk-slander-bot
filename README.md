@@ -74,10 +74,10 @@ Create the following tables under **Table Editor**:
 
 ### 4. Model Weights
 
-Place the following files in a `weights/` folder:
+The `weights/` folder needs two files:
 
-- `jjk_classifier.ckpt` — ViT-based JJK character classifier checkpoint
-- `classid_classname.csv` — maps class IDs to character names
+- **`classid_classname.csv`** — included in this repo under `weights/`
+- **`jjk_classifier.ckpt`** — download from the [latest release](https://github.com/Raynasty66/jjk-slander-bot/releases/latest) and place it in `weights/`
 
 The anime face detector (`yolov8x6_animeface.pt`) is downloaded automatically from GitHub on first run.
 
