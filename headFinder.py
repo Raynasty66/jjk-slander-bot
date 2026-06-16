@@ -51,7 +51,7 @@ def detectHead(imageURL) -> list:
     """
     response = requests.get(imageURL).content
     image = Image.open(io.BytesIO(response)).convert("RGB")
-    imageArray = np.ascontiguousarray(np.array(image))
+    imageArray = np.array(image)    
     results = faceDetector(imageArray,conf=0.05, iou=0)
     res = []
     for result in results:
