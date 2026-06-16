@@ -31,7 +31,7 @@ def load_jjk_classifier():
     m.eval()
     return m.to(device)
 
-faceDetector = YOLO('weights/jjk_facedetector.pt')
+faceDetector = YOLO('weights/faceDetectorWeights.pt')
 model = load_jjk_classifier()
 
 df = pd.read_csv(classnamesCSV, header=None, names=['class_id', 'class_name'])
