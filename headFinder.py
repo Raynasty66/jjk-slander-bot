@@ -5,6 +5,7 @@ import requests
 import io
 import numpy as np
 import torch
+torch.set_num_threads(1)
 from torchvision import transforms
 import vit_animesion
 from vit_animesion.configs import PRETRAINED_CONFIGS, ViTConfigExtended
