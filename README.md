@@ -84,3 +84,5 @@ The anime face detector (`yolov8x6_animeface.pt`) is downloaded automatically fr
 ### 5. Uploading Slander Images
 
 Use `upload_megumi.py` as a reference script for uploading slander images to the `ImagesLocation` table and `slander-stuff` bucket. Set the `CHARACTER` field to match the exact name used in `character_sets.json`.
+
+*Documentation with claude, i'm too lazy to make it myself. 
